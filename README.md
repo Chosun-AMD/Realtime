@@ -3,13 +3,6 @@
 ## 실행
 Docker와 MongoDB를 반드시 설치해야 됩니다.
 
-```
-$ export DATA_DIR='' # 분석할 대상이 저장되는 파일
-$ export MONGO_HOST='' # MongoDB 서버 주소
-$ export MONGO_UESRNAME='' # MongoDB 사용자 이름
-$ export MONGO_PASSWORD='' # MongoDB 접속 비밀번호
-```
-
 ### `monitor`
 `monitor`는 서버의 성능을 MongoDB로 보고하는 모듈입니다. 다음과 같이 Docker Image로 빌드 후 실행하면 됩니다.
 
